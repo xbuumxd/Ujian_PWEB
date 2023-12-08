@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Reservasi Sparepart</title>
+    <style>
+        body {
+            background-color: #f2f2f2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .splash {
+            text-align: center;
+        }
+        .splash img {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 100%;
+            margin-bottom: 20px;
+        }
+        .splash button {
+            background-color: #ff0000;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            border: none;
+        }
+        .splash button:hover {
+            background-color: #ff0000;
+        }
+    </style>
+</head>
+<body>
+    <div class="splash">
+        <img src="LogoHonda.png" alt="Splash Image">
+        <h1>Website Reservasi Sparepart</h1>
+        <button onclick="redirectToIndex()">Enter</button>
+    </div>
+
+    <script>
+        function redirectToIndex() {
+            window.location.href = "index.html";
+        }
+    </script>
+</body>
+</html>
